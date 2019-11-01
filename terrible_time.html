@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        label {
+            margin: 0px 20px;
+            cursor: pointer;
+        }
+    </style>
+
+    <title>Form control</title>
+</head>
+
+<body>
+    <p>This class single handedly made me want to drop out.</p>
+    <div class="container">
+        <h1>Sign in form</h1>
+        <form>
+            E-mail: <input name="email" class="form-control" type="email" placeholder="e.g. example@domain.com" required/> <br/> Password: <input name="password" class="form-control" type="password" placeholder="8-16 Characters" required/> <br/>
+            <input type="submit" class="btn btn-outline-info">
+            <hr>
+
+        </form>
+
+
+
+        <H1>Contact Form</H1>
+        <form>
+            First and Last Name: <input name="name" class="form-control" type="text" placeholder="e.g. Albert" /> <br/> E-mail: <input name="email" class="form-control" type="email" placeholder="e.g. example@domain.com" required/> <br/> Subject: <input
+                name="subject" class="form-control" type="text" placeholder="e.g. Improve my grade" /> <br/> Message: <textarea name="message" class="form-control" placeholder="e.g. write your message here"></textarea> <br/>
+            <input type="submit" class="btn btn-outline-info">
+
+        </form>
+        <hr>
+
+
+
+        <h1>Sign Up Form</h1>
+        <form>
+            First Name: <input name="first_name" type="text" class="form-control" placeholder="Albert" /> <br> Last Name: <input name="last_name" type="text" class="form-control" placeholder="Einstein" /> <br> Password: <input name="password" class="form-control"
+                type="password" placeholder="8-16 Characters" required/> <br/>
+            <h5>Gender</h5>
+            <label>
+                <input class="form-check-input" name="gender" type="radio" value="F"/> Female
+            </label>
+            <label>
+                <input class="form-check-input" name="gender" type="radio" value="M"/> Male
+            </label>
+            <br>
+            <br>
+            <h5>Date of Birth</h5>
+            <div class="row">
+                <div class="col">
+                    <select name="dob_month" class="form-control">
+                        <option value="">Month</option>
+                        <option value="1">Jan</option>
+                        <option value="2">Feb</option>
+                        <option value="3">Mar</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <select name="dob_day" class="form-control">
+                        <option value="">Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <select name="dob_year" class="form-control">
+                        <option value="">Year</option>
+                        <option value="2005">2005</option>
+                        <option value="2004">2004</option>
+                        <option value="2003">2003</option>
+                        <option value="...">...</option>
+                        <option value="1930">1930</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+
+            <label style="margin: 0px;">
+                <input type="checkbox" name="newsletter" value="1"> By ticking the checkbox you agree to receive our newsletter <br>
+            </label>
+            <br>
+            <br>
+            <input type="submit" class="btn btn-outline-info" value="Sign-up">
+
+
+        </form>
+        <br>
+        <br>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
